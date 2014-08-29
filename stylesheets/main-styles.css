@@ -1,0 +1,230 @@
+/*
+* Jott.ly V0.1
+* 07/31/2014
+*/
+
+
+/* Table of Content
+==================================================
+	#Basics
+	#Header
+	#Footer
+
+
+	#SITE COLORS
+		#MAIN BLUE: #08C4E2;
+*/
+
+
+/* #Basics
+================================================== */
+
+html, body{
+	color: #444444;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color: #000;
+	font-family: 'Oswald', Helvetica, sans-serif;
+}
+
+h1{ font-size: 40px; font-weight: 700; }
+
+h2{ font-size: 30px; font-weight: 200; }
+
+h3{ font-size: 25px; font-weight: 300; }
+
+h4{ font-size: 20px; font-weight: 400; }
+
+h5{ font-size: 16px; font-weight: 200; }
+
+h6{ font-size: 14px; font-weight: 400; }
+
+p{
+	font-family: 'Source Sans Pro', Helvetica, sans-serif;
+	font-size: 16px;
+
+}
+
+small{ font-size: 70%;}
+
+a { text-decoration: none;}
+
+.left{ text-align: left; }
+.center{ text-align: center; }
+.right{ text-align: right; }
+.color { color: white;}
+
+.no-margin-left{ margin-left: 0 !important; }
+
+input[type="submit"] { 
+	-moz-box-shadow:inset 0px 1px 23px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 23px 0px #97c4fe;
+	box-shadow:inset 0px 1px 23px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%,#08C4E2 100% );
+	border-radius: 3px;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#08C4E2;
+	text-indent:0;
+	border: none;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0px 1px 0px #1570cd;
+	padding: 15px 25px;
+	margin: 0;
+}
+
+input[type="submit"]:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+input[type="email"]{
+	height: 30px;
+	width: 100%;
+}
+
+
+
+/* #Header
+================================================== */
+
+.home-header{
+	background: #EBEBEB url('../images/mainphoto.jpg') no-repeat left bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 550px;
+	padding: 30px 0;
+}
+
+.home-header .right{ float: right; }
+.home-header .right li{ 
+	display: inline; 
+	font-size: 20px;
+	margin-right: 0;
+	float: right;	
+}
+
+.home-header .right li:first-child{ padding-left: 20px; }
+
+.home-header .left .logo img{ width: 80%; }
+
+.home-header .header-content h1{ color: #444444; font-weight: 200; }
+
+.sign-up-form-container{
+	margin-top: 25px;
+}
+
+
+/* BACKGROUNDS
+================================================== */
+.blue-box { 
+	background-color: #08C4E2;
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.blue-box .center-text{
+	color: #FFFFFF;
+	text-align: center;
+	line-height: normal;
+}
+
+
+/* CONTENT BLOCK STYLES
+================================================== */
+.content-block-container{
+	margin: 50px auto 80px;
+}
+
+.content-block-container .row{
+	margin: 80px 0;
+}
+
+.content-block-container .title-tag{
+	margin-bottom: 60px;
+}
+
+.content-block-container .circle{
+	background-color: url(../'personone.png');
+	border-radius: 300px;
+	height: 160px;
+	margin: 0 auto 30px;
+	width: 160px;
+}
+
+.content-block-container img{
+	width: 100%;
+}
+
+.content-block-container .feature-icon{
+	background-image: #000;
+	border-radius: 300px;
+	display: inline-block;
+	height: 30px;
+	margin-right: 10px;
+	width: 30px;
+}
+
+/* EMAIL
+================================================== */
+
+.email { 
+	background-color: #08C4E2;
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.email .center-text{
+	color: #FFFFFF;
+	text-align: center;
+	line-height: normal;
+}
+
+
+/* FOOTER
+================================================== */
+
+.sign-up-form { 
+	display: inline-block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.footer-content li{ 
+	background-color: #08C4E2;
+	color: #fff;
+	display: inline;
+	font-size: 20px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+.footer-content .last{
+	float: right;
+	
+}
+
+.footer-content p, .footer-content ul, .footer-content .row{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+
+
